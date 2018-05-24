@@ -1,6 +1,6 @@
-package ejercicio1;
+package ejercicio1_Strategy;
 
-public class MuteQuack implements QuackBehavior {
+public class MuteQuack implements IQuackBehavior {
 
 	
 	public void quack() {

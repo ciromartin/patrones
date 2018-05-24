@@ -1,9 +1,9 @@
-package ejercicio1;
+package ejercicio1_Strategy;
 
 public abstract class Duck {
 	
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
+	IFlyBehavior flyBehavior;
+	IQuackBehavior quackBehavior;
 
 	
 
@@ -24,11 +24,11 @@ public abstract class Duck {
 		System.out.println("All ducks float, even decoys!");
 	}
 	
-	public void setFlyBehavior(FlyBehavior flyBehavior) {
+	public void setFlyBehavior(IFlyBehavior flyBehavior) {
 		this.flyBehavior = flyBehavior;
 	}
 	
-	public void setQuackBehavior(QuackBehavior quackBehavior) {
+	public void setQuackBehavior(IQuackBehavior quackBehavior) {
 		this.quackBehavior = quackBehavior;
 	}
 

@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicio1_Strategy;
 
 public class MallarDuck extends Duck{
 	

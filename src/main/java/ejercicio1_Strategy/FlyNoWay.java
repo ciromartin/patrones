@@ -1,6 +1,6 @@
-package ejercicio1;
+package ejercicio1_Strategy;
 
-public class FlyNoWay implements FlyBehavior {
+public class FlyNoWay implements IFlyBehavior {
 
 	@Override
 	public void fly() {
