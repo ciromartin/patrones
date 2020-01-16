@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MiniDuckSimulator",
+            "request": "launch",
+            "mainClass": "ejercicio1_Strategy.MiniDuckSimulator",
+            "projectName": "DesignPattern"
+        }
+    ]
+}
